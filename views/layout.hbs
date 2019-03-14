@@ -2,9 +2,20 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/master.css'/>
   </head>
   <body>
+    <header>
+      <a href="/">Home</a>
+      <a href="/user1">UserTwo</a>
+      <a href="/user2">UserOne</a>
+
+    </header>
+    <h1>Anything under me is rendered dynamically from the router</h1>
+    <!-- Triple handlebars is a shorthand for a router view -->
     {{{body}}}
+
+    <footer>This is the footer</footer>
   </body>
 </html>

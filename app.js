@@ -19,6 +19,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+// below line of code makes use of the public folder for any web assets (css, javascript, etc)
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
