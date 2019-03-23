@@ -1,12 +1,77 @@
 body {
-  background: black;
+  background: #34d4e2;
   color: white;
   font-size: 14px;
+}
+
+.main {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.iphone {
+  float: right;
+  margin-right: 30px;
+}
+
+.iphone img {
+  height: 80vh;
 }
 
 a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+}
+
+.container {
+  height: 90vh;
+}
+
+footer {
+  background: #313131;
+  width: 100%;
+  height: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.myButton {
+  -webkit-box-shadow: 3px 3px 0px 0px #9fb4f2;
+  box-shadow: 3px 3px 0px 0px #9fb4f2;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #7892c2), to(#476e9e));
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+  background-color: #7892c2;
+  border-radius: 18px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 10px 38px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #476e9e), to(#7892c2));
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+  background-color: #476e9e;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
 }
 /*# sourceMappingURL=master.css.map */
